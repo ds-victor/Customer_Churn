@@ -11,6 +11,24 @@ Understand patterns and behaviors leading to customer churn.
 Build and evaluate machine learning models for churn prediction.
 Provide actionable insights for customer retention strategies.
 
+churn-prediction/
+│
+├── data/                  # Raw or processed data
+├── models/                # Saved models (optional)
+├── notebooks/             # Jupyter notebooks (exploration & EDA)
+├── src/                   # Source code (preprocessing, training, etc.)
+│   ├── preprocessing.py
+│   ├── train_model.py
+│   └── predict.py
+│
+├── app/                   # Streamlit app
+│   └── app.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+
 📂 Project Structure
 Churn_Prediction/
 │
